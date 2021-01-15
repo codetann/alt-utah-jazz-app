@@ -24,6 +24,9 @@
   align-items: center;
   padding-left: 3rem;
 }
+.header h1 {
+  font-size: 50px;
+}
 
 .stream-container {
   width: 100%;
