@@ -6,8 +6,9 @@
 }
 
 .app {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  background-color: #191919;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,16 +17,16 @@
 
 .header {
   width: 100%;
-  height: 8rem;
-  background-color: #0abb87;
+  height: 10vh;
+  background-color: #292929;
   color: white;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 .header h1 {
-  font-size: 50px;
+  font-size: 28px;
 }
 
 .stream-container {
@@ -36,7 +37,11 @@
   align-items: center;
 }
 
-iframe {
-  width: 100%;
-  height: 100%;
+a {
+  padding: 1rem 2rem;
+  background: #0abb87;
+  color: white;
+  font-weight: bold;
+  border-radius: 1rem;
+  text-decoration: none;
 }
